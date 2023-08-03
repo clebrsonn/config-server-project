@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-slim
+FROM openjdk:20-jdk-slim
 EXPOSE $PORT
 VOLUME /tmp
 COPY build/libs/microservices-*.jar app.jar
